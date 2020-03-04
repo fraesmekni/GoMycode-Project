@@ -1,0 +1,110 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.mezrigui {
+  color: var(--mainWhite) !important;
+  padding: 5px;
+  text-decoration: none !important;
+  text-decoration: none !important;
+  border: 1px solid var(--mainYellow);
+  font-size:18px;
+  font-weight: bold
+}
+.cart{
+  color: var(--mainWhite) !important;
+  padding: 5px;
+  text-decoration: none !important;
+  font-size:18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.bgn{
+  background:var(--lightBlue);
+  color: var(--mainWhite) !important
+}
+
+
+.text-title {
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+ /* Our Products */
+ .card{
+   border-color: transparent;
+   transition:all 1s linear;
+
+ }
+ .card-footer{
+   background: transparent;
+   border-top:transparent;
+   transition:all 1s linear;
+ }
+ .card:hover{
+   border:0.04rem solid rgba(0,0,0,0.2);
+   box-shadow: 2px 2px 5px 0px rgba(0,0,0.02)
+ }
+ .card-footer:hover{
+   background:rgba(247,247,247); 
+ }
+ .img-container{
+   position: relative;
+   overflow: hidden;
+   
+ }
+ .card-img-top{
+   transition:all 1s linear
+ }
+ .img-container:hover .card-img-top{
+    transform: scale(1.2)
+ }
+ .cart-btn{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding: 0.2rem 0.4rem;
+   background: var(--mainYellow);
+   border:none;
+   color: var(--mainWhite);
+   font-size:1rem;
+   border-radius: 0.5 0 0 0;
+ }
+ .img-container:hover{
+  transform: translate(0,0)
+ }
+ .cart-btn:hover{
+   color:var(--mainBlue);
+   cursor: pointer;
+ }
+ /*end our broducts */
+
+ .modal{
+   position: fixed;
+   top: 0;
+   left:0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0,0,0,0.3) ;
+   display:flex;
+   align-items: center;
+   justify-content: center
+
+ }
+ #modal{
+   background: var(--mainWhite)
+ }
